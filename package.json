@@ -1,0 +1,39 @@
+{
+  "name": "koa-auth-header-parser",
+  "version": "1.0.0",
+  "description": "Yet another very basic auth header parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanwalj/koa-auth-header-parser.git"
+  },
+  "keywords": [
+    "koa",
+    "co",
+    "generators",
+    "http",
+    "header",
+    "parser",
+    "bearer",
+    "basic",
+    "token"
+  ],
+  "author": "Jordan Van Walleghem <j.vanwall@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vanwalj/koa-auth-header-parser/issues"
+  },
+  "homepage": "https://github.com/vanwalj/koa-auth-header-parser#readme",
+  "peerDependencies": {
+    "koa": "<2"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "koa": "^1.1.2",
+    "mocha": "^2.3.4",
+    "request": "^2.67.0"
+  }
+}
